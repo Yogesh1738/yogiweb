@@ -1,0 +1,125 @@
+
+ 
+ #reg
+ {
+ display: none; 
+
+ }
+ #bread
+ {
+  position:fixed;
+  right: 1%;
+  top: 0px;
+  z-index:9 ;
+ }
+.clock
+{
+position: fixed;
+display: flex;
+align-items: center;
+top: 0%;
+color: white;
+font-size: 0.8rem;
+font-weight: bold;
+z-index: 10;
+}
+ .line
+{
+    width: 46px;
+    background-color: rgb(56, 52, 50);
+    border-radius: 3px;
+    height: 6px;
+    margin: 6px 0px;
+}
+.navbar .visibil
+ {
+  
+  width: 100vw;
+  display: none;
+  flex-flow: column;
+  margin:15px 0px;
+  padding: 6px 4px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .navbar ul
+ {
+  
+  width: 100vw;
+  display: flex;
+  margin:5px 0px;
+  padding: 6px 4px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s ease-out;
+ 
+
+
+ }
+ .navbar #logo
+ {
+ display:none;
+ }
+ .navbar li
+ {
+ margin: 6px 5px ;
+ padding: 9px 9px;
+ }
+ .navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 17px 37px;
+    padding: 21px 0px;
+    transition-property: all;
+transition-duration: 0.5s;
+ }
+ .specialsection > h1
+ {
+  text-align: center;
+ }
+ .left-right
+ {
+  display: flex;
+  flex-direction: column;
+ }
+ .left h1
+ {
+text-align: center;
+ }
+ .left
+ {
+  display:flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .right
+ {
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+ }
+ .headofcontainer
+ {
+  max-width: 80%;
+ }
+.mainoffer
+{
+max-width: 80%;
+}
+.reviews
+{
+ display: flex;
+  flex-wrap: wrap;
+ position: relative;
+ justify-content: center;
+ align-items: center;
+ padding: 115px 250px;
+}
