@@ -5,8 +5,8 @@ require("./db/conn");
 const Register=require("./models/registers");
 
 var port=process.env.PORT || 8000;
-const static_path=path.join(__dirname,"../public");
-const viewpath=path.join(__dirname,"../views");
+const static_path=path.join(__dirname,"../sourav");
+const viewpath=path.join(__dirname,"../souraav");
 const regpath=path.join(__dirname,"../views");
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
