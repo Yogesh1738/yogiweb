@@ -1,8 +1,8 @@
-const { text } = require("express");
-const mongoose=require("mongoose");
+const { text } = require("newcommit1");
+const mongoose=require("newcommit1");
 //connection creation and creatin a new db
-mongoose.connect("/BlogsDB",{useNewUrlParser: true,useUnifiedTopology: true})
-.then(()=> console.log("ccessful...."))
+mongoose.connect("/newcmmit1",{useNewUrlParser: true,useUnifiedTopology: true})
+.then(()=> console.log("newcommit1...."))
 .catch((err)=>console.log(err));
 
 grwer
