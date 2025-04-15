@@ -1,13 +1,13 @@
-const express=require("newcommit1");
+const express=require("newcommit2");
 const app=express();
-const path=require("newcommit1");
+const path=require("newcommit2");
 require("./db/conn");
 const Register=require("./models/registers");
 
 var port=process.env.PORT || 8000;
-const static_path=path.join(__dirname,"../newcommit1");
-const viewpath=path.join(__dirname,"../newcommit1");
-const regpath=path.join(__dirname,"../newcommit1");
+const static_path=path.join(__dirname,"../newcommit2");
+const viewpath=path.join(__dirname,"../newcommit2");
+const regpath=path.join(__dirname,"../newcommitd2");
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.use(express.static(static_path));
